@@ -1,0 +1,28 @@
+{
+    "schema_version": "1",
+    "open_source": true,
+    "model_name": "poker44_ml13tens11",
+    "model_version": "13.11",
+    "framework": "pytorch-torchscript",
+    "license": "MIT",
+    "repo_url": "https://github.com/tomkaba/poker44-miner-ml13tens11",
+    "repo_commit": "",
+    "inference_mode": "local",
+    "training_data_statement": "Trained with benchmark groundtruth",
+    "data_attestation": "This miner does not train on validator-private human data.",
+    "private_data_attestation": "This miner does not train on validator-private human data.",
+    "implementation_files": [
+        "weights/gen13_tens11_balanced_hardened.ts",
+        "neurons/miner.py",
+        "poker44/__init__.py",
+        "poker44/base/miner.py",
+        "poker44/base/neuron.py",
+        "poker44/miner_heuristics.py",
+        "poker44/utils/config.py",
+        "poker44/utils/misc.py",
+        "poker44/utils/model_manifest.py",
+        "poker44/validator/synapse.py"
+    ],
+    "implementation_sha256": "9bf3ffb28fdf47547be32fca20243a255c9b3d277e70302e342ca2a6f5de01b5",
+    "notes": "Gen13Tens11 balanced neural scorer."
+}
